@@ -21,18 +21,23 @@ This project was written using YAddress, https://www.yaddress.net/api/address  U
 |    |          |.travis.yml               | Travis CI config file                           |
 |    |          | build.gradle             | Gradle build file                               |
 
+YAddress Test Cases.xls file contains test cases covered in the story file
 
 
-If you need to **import project** files to your IDE please run commands
+ <br /> 
+**Import project**
+
+If you need to import project files to your IDE please run commands
 
 gradle idea (for IDEA IDE) or
 gradle eclipse (for Eclipse IDE)
 
-
+ <br /> 
 **Build Project**
 
 gradle clean build or use your IDE
 
+ <br /> 
 **Test Execution**
 
 1. Using JUnit
@@ -41,6 +46,7 @@ Right click on WebServiceDemoStories and run as JUnit test.
 2. Using Gradle
 Execute command "gradle test"
 
+ <br /> 
 **View Test Execution Reports**
 
 1. Gradle report
@@ -48,12 +54,14 @@ Execute command "gradle test"
 2. JBehave report
     Navigate to build\classes\jbehave and open com.example.stories.webServiceDemo.html file using any web browser or double click to open using default web browser. 
 
+ <br /> 
 **CI support**
 
 This project has enabled Travis CI support using travis-ci.org. Report
 https://travis-ci.org/chamiz/RestAPI-AddressValidation
 
 
+ <br /> 
 If you need further clarifications or enhancement requests on this project please contact me via email.
 
 Cheers
